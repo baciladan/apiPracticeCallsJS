@@ -1,0 +1,149 @@
+/* All sections will have a heading with the same class */
+
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-heading{
+    width: 55%;
+
+    margin: 15px auto;
+    padding: 5px;
+
+    text-align: center;
+
+
+
+
+    color: white;
+    background-color: #0375B4;
+
+    border-radius: 10px;
+}
+
+/* Dog Cat Fox Stiling */
+
+.dog-cat-fox{
+    display: flex;
+    justify-content: center;
+}
+
+#dogCatFoxSelect{
+    margin-right: 10px;
+    padding: 15px;
+}
+
+#dogCatFoxButton{
+    border: none;
+    padding: 15px;
+
+    color:white;
+    background-color: #0375B4;
+
+    border-radius: 15px;
+    outline: none;
+}
+
+#dogCatFoxHeading{
+    display: inline-block;
+}
+
+/* Animal Image Container */
+
+#animalImageContainer{
+    max-width: 300px;
+    margin:auto;
+    margin-top: 15px;
+}
+
+#animalImageContainer img{
+    width: 100%;
+    height: 100%;
+    border: 5px solid #0375B4;
+}
+
+/* Chuck Norris Joke */
+
+.chuck-norris-jokes{
+    display: flex;
+    justify-content: center;
+}
+
+#chuckButton{
+    border: none;
+    padding: 15px;
+
+    color:white;
+    background-color: #0375B4;
+
+    border-radius: 15px;
+    outline: none;
+}
+
+#chuckContainer{
+    width: 450px;
+    margin: auto;
+
+    color: #0375B4;
+    font-weight: bold;
+
+    margin-top: 25px;
+}
+
+/* Random Programming Joke */
+
+.programmingJokes{
+    display: flex;
+    justify-content: center;
+}
+
+#progJokes{
+    border: none;
+    padding: 15px;
+
+    color:white;
+    background-color: #0375B4;
+
+    border-radius: 15px;
+    outline: none;
+}
+
+#progContainer{
+    width: 450px;
+    margin: auto;
+
+    color: #0375B4;
+    font-weight: bold;
+
+    margin-top: 25px;
+}
+/* Rick and Morty API */
+
+.rick-and-morty{
+    display: flex;
+    justify-content: center;
+}
+
+#rickCharacter{
+    border: none;
+    padding: 15px;
+
+    color:white;
+    background-color: #0375B4;
+
+    border-radius: 15px;
+    outline: none;
+}
+
+#rickContainer{
+    text-align: center;
+
+    width: 450px;
+    margin: auto;
+
+    color: #0375B4;
+    font-weight: bold;
+
+    margin-top: 25px;
+}
